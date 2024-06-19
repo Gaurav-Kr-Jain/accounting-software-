@@ -1,0 +1,51 @@
+html {
+    font-family: sans-serif;
+    color: brown;
+    background-color: red;
+background-image: url(bg-graphic.png);
+background-position: 10px 10px;
+background-repeat: repeat-x repeat-y;
+background-attachment: fixed;
+text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+    background-color:darkcyan;
+
+  }
+  
+
+  
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color:cyan;
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: cyan;
+  }
+  
+  caption {
+    padding: 10px;
+  }
+  header{
+    background-color: grey;
+    height: 30px;
+
+  }
+  footer{
+    background-color: grey;
+    height: 30px;}
+    
