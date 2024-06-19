@@ -19,13 +19,18 @@
   td {
     text-align: center;
   }
-  
+
+
+  tr:first-child td {
+    background-color: grey;
+  }
+
   tr:nth-child(even) td {
     background-color:cyan;
   }
   
   tr:nth-child(odd) td {
-    background-color: cyan;
+    background-color: white;
   }
   
   caption {
