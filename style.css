@@ -1,13 +1,4 @@
-html {
-    font-family: sans-serif;
-    color: brown;
-    background-color: red;
-background-image: url(bg-graphic.png);
-background-position: 10px 10px;
-background-repeat: repeat-x repeat-y;
-background-attachment: fixed;
-text-align: center;
-  }
+
   
   table {
     border-collapse: collapse;
@@ -40,12 +31,37 @@ text-align: center;
   caption {
     padding: 10px;
   }
-  header{
-    background-color: grey;
-    height: 30px;
 
-  }
-  footer{
-    background-color: grey;
-    height: 30px;}
+html {
+        font-family: sans-serif;
+      }
+
+      body {
+        margin: 0 auto;
+        max-width: 1024px;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      header, footer {
+        background: cyan;
+        padding: 20px;
+        border: 1px solid black;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      form {
+        font-size: 0.8rem;
+      }
+
+      .personal-greeting {
+        font-weight: bold;
+      }
     
